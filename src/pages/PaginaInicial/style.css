@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background-color: #3f3f47c7;
+}
+
+.container h1 {
+  color: #fff;
+}
+
+.container .cards {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.container .cards .link {
+  text-decoration: none;
+}
+
+
