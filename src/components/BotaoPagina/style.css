@@ -1,0 +1,15 @@
+.botaoPagina {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 8px;
+  border: none;
+
+  font-size: 25px;
+  font-weight: bold;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
