@@ -1,0 +1,33 @@
+.barraLateral {
+  width: 40%;
+  height: 100%;
+
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #3f3f47c7;
+  color: #fff;
+}
+
+.barraLateral .botoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.barraLateral .botoes button {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.barraLateral .botoes .botaoHome {
+  background-color: #33dfdfd7;
+}
